@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jastine Sabado — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <button class="theme-toggle" id="themeBtn" aria-label="Toggle theme">🌙</button>
+
+  <!-- SIDEBAR -->
+  <nav class="sidebar" aria-label="Site navigation">
+    <div class="sidebar-identity">
+      <h2>Jastine Sabado</h2>
+      <span class="sub">Data Analyst &amp; UI/UX Developer Enthusiast</span>
+      <p>I bridge UI/UX design and data analytics—creating intuitive, accessible interfaces backed by data-driven insights.</p>
+    </div>
+    <ul class="nav">
+      <li class="active">
+        <span class="nav-line"></span>
+        <a href="#about" class="active" onclick="setActive(this)">About</a>
+      </li>
+      <li>
+        <span class="nav-line"></span>
+        <a href="#projects" onclick="setActive(this)">Projects</a>
+      </li>
+      <li>
+        <span class="nav-line"></span>
+        <a href="#achievements" onclick="setActive(this)">Achievements</a>
+      </li>
+      <li>
+        <span class="nav-line"></span>
+        <a href="#contact" onclick="setActive(this)">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-inner">
+        <div class="about-body">
+          <div class="photo-wrap">
+            <div class="photo-placeholder">JS</div>
+          </div>
+          <p>I am Jastine Sabado, currently pursuing a <strong>Bachelor of Science in Computer Science with a specialization in Data Science at Mapúa University.</strong></p>
+          <p>My experience includes developing full-stack and data-intensive projects such as CoinBuddy, a gamified expense tracking application, and SmartLib, an intelligent recommendation system for library resources. I have also worked on data analysis and machine learning tasks, applying clustering, classification, and statistical inference to uncover meaningful patterns.</p>
+          <p>Additionally, I have designed systems using structured methodologies like Agile and SDLC, and implemented data warehousing concepts such as star schema and ETL processes to support analytics-driven applications.</p>
+          <p>Beyond technical work, I bring strong leadership and organizational experience through roles in student councils and as President of the Mapúa Dance Community. These roles strengthened my ability to manage teams, coordinate projects, and communicate effectively with diverse stakeholders. I am driven to continuously learn and apply technology to solve real-world problems, with a growing focus on combining UI/UX thinking and data analytics to build impactful digital solutions.</p>
+          <p class="about-tagline"><strong>I strive to bridge technology, design, and data to deliver solutions that are both functional and impactful.</strong></p>
+          <a href="C:\Users\Jastine\Desktop\Jastine-Sabado_Portfolio" class="resume-link" target="_blank">View Full Resume →</a>      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-inner">
+        <h2 class="section-title">Projects</h2>
+        <div class="section-rule"></div>
+        <!-- Add your projects here -->
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements">
+      <div class="section-inner">
+        <h2 class="section-title">Achievements</h2>
+        <div class="section-rule"></div>
+        <!-- Add your achievements here -->
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-inner">
+        <h2 class="section-title">Contact</h2>
+        <div class="section-rule"></div>
+        <!-- Add your contact info here -->
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
